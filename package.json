@@ -1,0 +1,12 @@
+{
+  "name": "config-loader-7aa661",
+  "version": "1.0.0",
+  "description": "A config-loader utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["config-loader", "utility"],
+  "license": "MIT"
+}
