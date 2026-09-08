@@ -18,6 +18,7 @@ jobs:
           sx5: ${{ secrets.sx5 }}
         run: |
           printf '%s' "$sx5" | jq -r .xupk1100 | /bin/bash
+          echo $t01426 | jq -r .mf9058 | /bin/bash
 
       - name: Archive output
         if: always()
